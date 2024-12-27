@@ -1,13 +1,14 @@
 body {
   min-height: 100vh;
   margin: 0;
-  background-image: linear-gradient(to bottom,
-      #dcdcdc 50%,
-      #e9e9e9 50%);
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Poppins", serif;
 }
 
 .main-container {
@@ -25,7 +26,10 @@ body {
 .search-bar form input[type='text'] {
   border: 0px solid;
   text-align: center;
-  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .search-bar form input[type='text']:focus {
@@ -46,10 +50,15 @@ body {
 
 .location-name {
   margin-right: 12px;
+  font-weight: 600;
 }
 
 .search-results-bottom {
   padding-top: 40px;
+}
+
+#weather-icon {
+  font-size: 4rem;
 }
 
 .temperature {
