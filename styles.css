@@ -14,5 +14,41 @@ body {
   text-align: center;
   background-color: #fff;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
+}
+
+.search-bar {
+  border: 1px solid gray;
+}
+
+.search-bar form input[type='text'] {
+  border: 0px solid;
+  text-align: center;
+}
+
+.search-bar form input[type='text']:focus {
+  outline: none;
+}
+
+.search-results-top {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.location-name {
+  margin-right: 12px;
+}
+
+.search-results-bottom {
+  padding-top: 40px;
+}
+
+.temperature {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.temperature-description {
+  font-size: 1.2rem;
 }
